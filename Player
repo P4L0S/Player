@@ -1,0 +1,30 @@
+int x=160;
+int y=160;
+
+void ejecutar(){
+  player();
+  controles();
+}
+
+void main(){
+  animate(ejecutar);
+}
+  
+  
+  
+void player(){
+  background(100,300,50);
+  image("",x,y,150,150);
+}
+
+void controles(){
+  if(keyPressed && key=="up"){
+    print("Hola");
+    y = y -1;
+    if(keyPressed && key=="down"){
+      print("Adios")
+    }
+  }
+  
+  
+}
