@@ -13,16 +13,17 @@ void main(){
   
   
 void player(){
-  background(100,300,50);
-  image("",x,y,150,150);
+  image("https://i.blogs.es/cc8912/screenshot_1764/450_1000.webp",0,0,400,400);
+  image("https://seeklogo.com/images/Z/Zelda-logo-687714F8A8-seeklogo.com.png",x,y,150,150);
 }
 
 void controles(){
   if(keyPressed && key=="up"){
-    print("Hola");
+    println("Opa");
     y = y -1;
     if(keyPressed && key=="down"){
-      print("Adios")
+      print("Ayiyi");
+      y = y +1;
     }
   }
   
