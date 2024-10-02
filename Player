@@ -1,5 +1,5 @@
-int x=160;
-int y=160;
+int x=120;
+int y=120;
 
 void ejecutar(){
   player();
@@ -30,6 +30,12 @@ void controles(){
   if(keyPressed && key=="left"){
     println("Pa la izquierda");
     x = x-10;}
+  if(x==0){
+    x=120;}
+  if(y==0){
+    y=120;}
+  if(x==250){
+    x=120;}
+  if(y==250){
+    y=120;}
   }
-  
-  
