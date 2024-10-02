@@ -20,9 +20,16 @@ void player(){
 void controles(){
   if(keyPressed && key=="up"){
     println("Opa");
-    y = y -1;}
+    y = y -10;}
     if(keyPressed && key=="down"){
-      print("Ayiyi");
-      y = y +1;
-    }
+      println("Ayiyi");
+      y = y +10;}
+  if(keyPressed && key=="right"){
+    println("Pa la derecha");
+    x = x+10;}
+  if(keyPressed && key=="left"){
+    println("Pa la izquierda");
+    x = x-10;}
   }
+  
+  
